@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LinedUp - Check live feeds of bars or clubs to see line lengths in real-time">
+    <title>LinedUp - See Bar & Club Lines in Real-Time</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>LinedUp</h1>
+            <nav>
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Know Before You Go</h2>
+            <p>Check live feeds of your favorite bars and clubs to see how long the line is before you get there.</p>
+            <a href="#features" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="section">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="features-list">
+                <div class="feature-item">
+                    <h3>Real-Time Feeds</h3>
+                    <p>Live updates of lines at popular venues.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Venue Profiles</h3>
+                    <p>Detailed information about bars and clubs, including current wait times.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>User Contributions</h3>
+                    <p>Contribute to the community by sharing live updates on lines.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About LinedUp</h2>
+            <p>LinedUp is an innovative app that allows you to check the line lengths at bars and clubs in real-time. Save time and plan your night more efficiently with live updates from your favorite spots.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have any questions? Reach out to us!</p>
+            <form action="submit_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 LinedUp. All rights reserved.</p>
+            <div class="social-media">
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script> <!-- Link to external JavaScript file -->
+</body>
+</html>
